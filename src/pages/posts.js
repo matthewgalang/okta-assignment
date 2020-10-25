@@ -40,14 +40,14 @@ const Posts = () => {
         <div className="container">
             <SEO title="Posts" />
             <h1 className="heading--page-title">Posts</h1>
-            {postData.data.posts.data.map((data) => {
+            {/* {postData.data.posts.data.map((data) => {
                 return(
                     <>
                     <h2>{data.title}</h2>
                     <p>{data.body}</p>
                     </>
                 )
-            })}
+            })} */}
         </div>
     )
 }
